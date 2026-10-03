@@ -1,0 +1,39 @@
+{
+  "description": "Exact implicit differentiation; fixed Gaussian empirical risk; independent held-out Gaussian risk",
+  "dimension": 10,
+  "n_train": 4096,
+  "n_eval": 16384,
+  "epsilons": [
+    0.5,
+    0.25,
+    0.125
+  ],
+  "seeds": [
+    1729,
+    1730,
+    1731,
+    1732,
+    1733
+  ],
+  "updates": 60000,
+  "step_size": 0.05,
+  "record_every": 100,
+  "solver": "Vectorized Newton on preactivation, original-equation residual checked at every update",
+  "solver_tolerance": 1e-12,
+  "arithmetic": "float64",
+  "initialization": "xi + 0.1*(-xi1,1)/sqrt(2) + 0.03*(v,0), v random unit vector orthogonal to xi1",
+  "pairing": "All epsilon values share training/evaluation inputs, xi and theta0 within each seed",
+  "selection": "No tuning; horizon chosen from the initial target-Hessian timescales, not selected outcome curves",
+  "uncertainty": "Plots show arithmetic mean with observed min-max seed range; summary reports sample standard deviation",
+  "python": "3.11.11",
+  "numpy": "1.26.4",
+  "scipy": "1.15.2",
+  "matplotlib": "3.9.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "arm",
+  "blas_thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  }
+}

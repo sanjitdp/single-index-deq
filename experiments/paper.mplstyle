@@ -1,0 +1,21 @@
+savefig.dpi: 400
+savefig.facecolor: white
+savefig.bbox: tight
+figure.facecolor: white
+font.family: CMU Serif
+mathtext.fontset: cm
+font.size: 12
+axes.labelsize: 13
+axes.titlesize: 13
+xtick.labelsize: 11
+ytick.labelsize: 11
+legend.fontsize: 10
+legend.framealpha: 0.9
+axes.axisbelow: True
+axes.grid: True
+grid.alpha: 0.3
+lines.linewidth: 1.8
+axes.spines.top: False
+axes.spines.right: False
+pdf.fonttype: 42
+ps.fonttype: 42

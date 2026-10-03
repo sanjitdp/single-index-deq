@@ -1,0 +1,9 @@
+{
+  "finite_difference_max_absolute_error": 1.0076314782558882e-12,
+  "independent_brent_max_difference": 1.6653345369377348e-15,
+  "forward_residual": 1.1102230246251565e-16,
+  "damped_polynomial_identity": true,
+  "linear_polynomial_identity": true,
+  "stress_root_cases": 1010,
+  "stress_root_max_difference": 2.460373213757777e-15
+}

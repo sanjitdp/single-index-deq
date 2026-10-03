@@ -1,0 +1,116 @@
+{
+  "validation": {
+    "finite_difference_max_error": 2.283130282054735e-13,
+    "brent_max_difference": 5.88418203051333e-15,
+    "residual": 5.218048215738236e-15
+  },
+  "initialization_seed": 43,
+  "data_seed": 42,
+  "n": 1000,
+  "distribution": "Uniform[0,1]",
+  "note": "Fresh runs of manuscript protocols; original image trajectories were not saved. Both 4000-step sigmoid reruns are retained; extended runs use the identical data/initialization and 40000 steps after 4000 proved insufficient.",
+  "runs": {
+    "linear": {
+      "steps": 200,
+      "eta": 0.01,
+      "initial_theta": [
+        0.024422950667176008,
+        0.06781783200788559
+      ],
+      "final_theta": [
+        0.8402616937669253,
+        0.5798691531162682
+      ],
+      "final_train_risk": 5.4535385215122005e-25,
+      "initial_train_risk": 1.2939137834626344,
+      "min_distance_singular": 0.9325020508512407,
+      "max_residual": 0.0,
+      "runtime_seconds": 0.002087041997583583
+    },
+    "linear-near-singular": {
+      "steps": 200,
+      "eta": 0.01,
+      "initial_theta": [
+        0.024422950667176008,
+        1.0678178320078855
+      ],
+      "final_theta": [
+        -0.2603174010583546,
+        1.1301508716290452
+      ],
+      "final_train_risk": 4.806913207962446e-09,
+      "initial_train_risk": 1.849989434755131,
+      "min_distance_singular": 0.07208147374701138,
+      "max_residual": 0.0,
+      "runtime_seconds": 0.002078124991385266
+    },
+    "sigmoid": {
+      "steps": 4000,
+      "eta": 0.1,
+      "initial_theta": [
+        0.024422950667176008,
+        0.06781783200788559
+      ],
+      "final_theta": [
+        1.6327588560755617,
+        0.2359775365708395
+      ],
+      "final_train_risk": 0.00023664835147826885,
+      "initial_train_risk": 0.0539951750860842,
+      "min_distance_singular": 0.7274632899666603,
+      "max_residual": 9.992007221626409e-14,
+      "runtime_seconds": 0.29484875001071487
+    },
+    "sigmoid-far": {
+      "steps": 4000,
+      "eta": 2.0,
+      "initial_theta": [
+        20.024422950667176,
+        0.06781783200788559
+      ],
+      "final_theta": [
+        10.321121769694589,
+        -4.985794342243003
+      ],
+      "final_train_risk": 0.018002639888217004,
+      "initial_train_risk": 0.07077557423930789,
+      "min_distance_singular": 11.931273548640643,
+      "max_residual": 7.183142969324763e-14,
+      "runtime_seconds": 0.3345474999950966
+    },
+    "sigmoid-extended": {
+      "steps": 40000,
+      "eta": 0.1,
+      "initial_theta": [
+        0.024422950667176008,
+        0.06781783200788559
+      ],
+      "final_theta": [
+        1.9998873802081063,
+        7.188900338595603e-05
+      ],
+      "final_train_risk": 1.9633461987473638e-11,
+      "initial_train_risk": 0.0539951750860842,
+      "min_distance_singular": 0.7274632899666603,
+      "max_residual": 9.992007221626409e-14,
+      "runtime_seconds": 2.3400021670095157
+    },
+    "sigmoid-far-extended": {
+      "steps": 40000,
+      "eta": 2.0,
+      "initial_theta": [
+        20.024422950667176,
+        0.06781783200788559
+      ],
+      "final_theta": [
+        1.9999999999999594,
+        -6.259185828927824e-14
+      ],
+      "final_train_risk": 1.9777962546805946e-27,
+      "initial_train_risk": 0.07077557423930789,
+      "min_distance_singular": 2.2360679774997574,
+      "max_residual": 9.992007221626409e-14,
+      "runtime_seconds": 1.818232750010793
+    }
+  }
+}

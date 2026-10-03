@@ -1,0 +1,16 @@
+{
+  "dataset": "cifar10",
+  "seed": 0,
+  "epochs": 50,
+  "batch_size": 128,
+  "learning_rate": 0.1,
+  "forward_iterations": 22,
+  "forward_tolerance": 0.001,
+  "configs": [
+    {"name": "jfb", "method": "neumann", "terms": 1, "damping": 1.0},
+    {"name": "two_terms", "method": "neumann", "terms": 2, "damping": 1.0},
+    {"name": "three_terms", "method": "neumann", "terms": 3, "damping": 1.0},
+    {"name": "damped_two", "method": "neumann", "terms": 2, "damping": 0.5},
+    {"name": "phantom_baseline", "method": "phantom", "terms": 5, "damping": 0.5}
+  ]
+}

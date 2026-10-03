@@ -1,0 +1,16 @@
+{
+  "nonlinear_archives_checked": 25,
+  "linear_trajectories_checked": 25,
+  "failed_runs": 0,
+  "nonlinear_nonfinite_or_increasing_risk_trajectories": 0,
+  "maximum_nonlinear_risk_increment": -1.5477142799288383e-20,
+  "maximum_training_forward_residual": 9.977574322306282e-13,
+  "maximum_evaluation_forward_residual": 9.988676552552533e-13,
+  "maximum_absolute_nonlinear_theta2": 0.15,
+  "total_script_wall_seconds": 330.515,
+  "scalar_displayed_two_term_final_risk": 0.01600863521938117,
+  "scalar_two_term_nearby_final_risk_min": 0.012218007862865459,
+  "scalar_two_term_nearby_final_risk_max": 0.020287393910858376,
+  "scalar_other_methods_maximum_final_risk": 3.332937324558775e-29,
+  "interpretation": "Every run behaved as expected. Two terms fail in the analytic scalar counterexample; exact, JFB, three terms and damped two terms reach numerical zero risk. All five methods learn the nonlinear explicit target. Damped two terms is slower at the common step, consistent with its local multiplier 0.75."
+}

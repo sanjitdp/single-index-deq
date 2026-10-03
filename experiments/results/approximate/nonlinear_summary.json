@@ -1,0 +1,102 @@
+{
+  "exact": {
+    "completed": 5,
+    "attempted": 5,
+    "final_train_risk": {
+      "mean": 6.857069863385649e-17,
+      "sd": 5.889254909333203e-17
+    },
+    "final_eval_risk": {
+      "mean": 6.908640159446241e-17,
+      "sd": 5.94217051236119e-17
+    },
+    "final_parameter_error": {
+      "mean": 2.770914575693313e-07,
+      "sd": 1.1409349966555529e-07
+    },
+    "runtime_seconds": {
+      "mean": 13.064467908398365,
+      "sd": 0.12866846107704302
+    }
+  },
+  "jfb": {
+    "completed": 5,
+    "attempted": 5,
+    "final_train_risk": {
+      "mean": 7.475618030666231e-17,
+      "sd": 6.639613117072918e-17
+    },
+    "final_eval_risk": {
+      "mean": 7.532004998925431e-17,
+      "sd": 6.699784831762283e-17
+    },
+    "final_parameter_error": {
+      "mean": 2.881625502693723e-07,
+      "sd": 1.225938613257624e-07
+    },
+    "runtime_seconds": {
+      "mean": 12.870869074997609,
+      "sd": 0.08980296515550712
+    }
+  },
+  "neumann2": {
+    "completed": 5,
+    "attempted": 5,
+    "final_train_risk": {
+      "mean": 6.88095384412903e-17,
+      "sd": 5.920213502857056e-17
+    },
+    "final_eval_risk": {
+      "mean": 6.932715534505877e-17,
+      "sd": 5.973433327717489e-17
+    },
+    "final_parameter_error": {
+      "mean": 2.7751944281981153e-07,
+      "sd": 1.1445705153632034e-07
+    },
+    "runtime_seconds": {
+      "mean": 13.26776278319594,
+      "sd": 0.351583015897698
+    }
+  },
+  "neumann3": {
+    "completed": 5,
+    "attempted": 5,
+    "final_train_risk": {
+      "mean": 6.858816693484171e-17,
+      "sd": 5.891466356493293e-17
+    },
+    "final_eval_risk": {
+      "mean": 6.910401161964859e-17,
+      "sd": 5.94440364105075e-17
+    },
+    "final_parameter_error": {
+      "mean": 2.771232244242768e-07,
+      "sd": 1.1411879604298701e-07
+    },
+    "runtime_seconds": {
+      "mean": 13.188505300198448,
+      "sd": 0.10928866049942151
+    }
+  },
+  "damped2": {
+    "completed": 5,
+    "attempted": 5,
+    "final_train_risk": {
+      "mean": 3.958697652208545e-14,
+      "sd": 3.3910512430199684e-14
+    },
+    "final_eval_risk": {
+      "mean": 3.988793496493773e-14,
+      "sd": 3.421725143648814e-14
+    },
+    "final_parameter_error": {
+      "mean": 6.660731396079423e-06,
+      "sd": 2.728837152480148e-06
+    },
+    "runtime_seconds": {
+      "mean": 13.140160849798121,
+      "sd": 0.10912821883838628
+    }
+  }
+}

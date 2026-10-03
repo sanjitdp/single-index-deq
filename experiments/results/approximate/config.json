@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "steps": 40000,
+  "eta": 0.2,
+  "n_train": 8000,
+  "n_eval": 8000,
+  "d": 20,
+  "initial_weight_error": 0.2,
+  "initial_theta2": 0.15,
+  "evaluation_stride": 20,
+  "forward_tolerance": 1e-12,
+  "methods": [
+    "exact",
+    "jfb",
+    "neumann2",
+    "neumann3",
+    "damped2"
+  ],
+  "python": "3.11.11",
+  "numpy": "1.26.4",
+  "scipy": "1.15.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "pilot_design_decision": "Seed 100, 1000 updates, common eta=.2, all five methods; no failures, exact final parameter error .04768 and risk 1.883e-6. Target Hessian smallest eigenvalue .001579. Fixed final horizon 40000 chosen before running remaining seeds to resolve the slow direction; no method-specific step tuning or held-out-data selection.",
+  "environment_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "wall_seconds": 200.5637746249995,
+  "failed_runs": 0,
+  "runs": [
+    {
+      "epsilon": 0.5,
+      "final_parameter_error": 4.8438249524512784e-11,
+      "final_training_risk": 8.301114844545646e-24,
+      "final_evaluation_risk": 8.33771791794904e-24,
+      "maximum_equilibrium_residual": 1.2099210522364956e-12,
+      "maximum_contraction_bound": 0.10606601717798213,
+      "maximum_newton_steps": 4,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 12.273215166002046,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.4767522407518886e-11,
+        "brentq_maximum_discrepancy": 1.214306433183765e-15,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.020669959333510346,
+        "hessian_minimum_eigenvalue": 0.0070760450832190545,
+        "hessian_maximum_eigenvalue": 7.007840792272553,
+        "hessian_minimum_over_epsilon_squared": 0.028304180332876218
+      },
+      "seed": 1729
+    },
+    {
+      "epsilon": 0.25,
+      "final_parameter_error": 0.0003727139853491307,
+      "final_training_risk": 1.2465201061597844e-10,
+      "final_evaluation_risk": 1.2493657850539948e-10,
+      "maximum_equilibrium_residual": 1.1026735080577055e-12,
+      "maximum_contraction_bound": 0.08838834764831843,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 13.441462583999964,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.65825897210469e-11,
+        "brentq_maximum_discrepancy": 1.2212453270876722e-14,
+        "initial_equilibrium_residual": 1.1102230246251565e-14,
+        "gram_minimum_eigenvalue": 0.020669959333510346,
+        "hessian_minimum_eigenvalue": 0.0017936901788989622,
+        "hessian_maximum_eigenvalue": 5.310367907019409,
+        "hessian_minimum_over_epsilon_squared": 0.028699042862383395
+      },
+      "seed": 1729
+    },
+    {
+      "epsilon": 0.125,
+      "final_parameter_error": 0.02221275880866144,
+      "final_training_risk": 1.1393142496960938e-07,
+      "final_evaluation_risk": 1.1407764872965209e-07,
+      "maximum_equilibrium_residual": 8.881784197001252e-16,
+      "maximum_contraction_bound": 0.07954951288348659,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 13.901674332999391,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.52002406516628e-11,
+        "brentq_maximum_discrepancy": 8.881784197001252e-16,
+        "initial_equilibrium_residual": 8.881784197001252e-16,
+        "gram_minimum_eigenvalue": 0.020669959333510346,
+        "hessian_minimum_eigenvalue": 0.0004473484264293666,
+        "hessian_maximum_eigenvalue": 4.627582096583434,
+        "hessian_minimum_over_epsilon_squared": 0.028630299291479464
+      },
+      "seed": 1729
+    },
+    {
+      "epsilon": 0.5,
+      "final_parameter_error": 3.7792650776323075e-10,
+      "final_training_risk": 4.564212227812951e-22,
+      "final_evaluation_risk": 4.878772498333286e-22,
+      "maximum_equilibrium_residual": 1.2096990076315706e-12,
+      "maximum_contraction_bound": 0.10606601717798213,
+      "maximum_newton_steps": 4,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 12.434258499997668,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.0875751022645997e-11,
+        "brentq_maximum_discrepancy": 3.9968028886505635e-15,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.018548831790643035,
+        "hessian_minimum_eigenvalue": 0.0063911811571763155,
+        "hessian_maximum_eigenvalue": 6.863348336495712,
+        "hessian_minimum_over_epsilon_squared": 0.025564724628705262
+      },
+      "seed": 1730
+    },
+    {
+      "epsilon": 0.25,
+      "final_parameter_error": 0.0006251198293298854,
+      "final_training_risk": 3.171047433201815e-10,
+      "final_evaluation_risk": 3.3803819842722003e-10,
+      "maximum_equilibrium_residual": 1.1026735080577055e-12,
+      "maximum_contraction_bound": 0.08838834764831843,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 13.560283416998573,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.2609128655144205e-11,
+        "brentq_maximum_discrepancy": 1.199040866595169e-14,
+        "initial_equilibrium_residual": 1.1102230246251565e-14,
+        "gram_minimum_eigenvalue": 0.018548831790643035,
+        "hessian_minimum_eigenvalue": 0.001621510711041213,
+        "hessian_maximum_eigenvalue": 5.1706540563084245,
+        "hessian_minimum_over_epsilon_squared": 0.025944171376659407
+      },
+      "seed": 1730
+    },
+    {
+      "epsilon": 0.125,
+      "final_parameter_error": 0.025412292930436745,
+      "final_training_risk": 1.3553602509414177e-07,
+      "final_evaluation_risk": 1.4424660539121316e-07,
+      "maximum_equilibrium_residual": 8.881784197001252e-16,
+      "maximum_contraction_bound": 0.07954951288348659,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 14.019765459001064,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.20368567025589e-11,
+        "brentq_maximum_discrepancy": 6.661338147750939e-16,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.018548831790643035,
+        "hessian_minimum_eigenvalue": 0.00040473629802275545,
+        "hessian_maximum_eigenvalue": 4.490289381894639,
+        "hessian_minimum_over_epsilon_squared": 0.02590312307345635
+      },
+      "seed": 1730
+    },
+    {
+      "epsilon": 0.5,
+      "final_parameter_error": 1.8505375279239303e-10,
+      "final_training_risk": 1.1350213455399618e-22,
+      "final_evaluation_risk": 1.1771006398281865e-22,
+      "maximum_equilibrium_residual": 1.2090328738167955e-12,
+      "maximum_contraction_bound": 0.10606601717798213,
+      "maximum_newton_steps": 4,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 12.208611458001542,
+      "validation": {
+        "gradient_finite_difference_relative_error": 3.919827639812247e-11,
+        "brentq_maximum_discrepancy": 6.217248937900877e-15,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.019143631584308082,
+        "hessian_minimum_eigenvalue": 0.006628835721082726,
+        "hessian_maximum_eigenvalue": 6.877886872388634,
+        "hessian_minimum_over_epsilon_squared": 0.026515342884330904
+      },
+      "seed": 1731
+    },
+    {
+      "epsilon": 0.25,
+      "final_parameter_error": 0.0005338545811327774,
+      "final_training_risk": 2.387070367015998e-10,
+      "final_evaluation_risk": 2.4843826427752923e-10,
+      "maximum_equilibrium_residual": 1.1026735080577055e-12,
+      "maximum_contraction_bound": 0.08838834764831843,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 14.409425500009093,
+      "validation": {
+        "gradient_finite_difference_relative_error": 3.917690065404231e-11,
+        "brentq_maximum_discrepancy": 1.176836406102666e-14,
+        "initial_equilibrium_residual": 1.1102230246251565e-14,
+        "gram_minimum_eigenvalue": 0.019143631584308082,
+        "hessian_minimum_eigenvalue": 0.0016738571205512942,
+        "hessian_maximum_eigenvalue": 5.203344556682892,
+        "hessian_minimum_over_epsilon_squared": 0.026781713928820707
+      },
+      "seed": 1731
+    },
+    {
+      "epsilon": 0.125,
+      "final_parameter_error": 0.02446947136092208,
+      "final_training_risk": 1.2917963964675403e-07,
+      "final_evaluation_risk": 1.3471416696021629e-07,
+      "maximum_equilibrium_residual": 8.881784197001252e-16,
+      "maximum_contraction_bound": 0.07954951288348659,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 14.330546750003123,
+      "validation": {
+        "gradient_finite_difference_relative_error": 3.731032802640564e-11,
+        "brentq_maximum_discrepancy": 6.661338147750939e-16,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.019143631584308082,
+        "hessian_minimum_eigenvalue": 0.00041659894871632307,
+        "hessian_maximum_eigenvalue": 4.529774873435503,
+        "hessian_minimum_over_epsilon_squared": 0.026662332717844676
+      },
+      "seed": 1731
+    },
+    {
+      "epsilon": 0.5,
+      "final_parameter_error": 2.628215333151441e-11,
+      "final_training_risk": 2.514318506442483e-24,
+      "final_evaluation_risk": 2.3613383612368263e-24,
+      "maximum_equilibrium_residual": 1.2088108292118704e-12,
+      "maximum_contraction_bound": 0.10606601717798213,
+      "maximum_newton_steps": 4,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 12.162443124994752,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.308479838475027e-11,
+        "brentq_maximum_discrepancy": 7.993605777301127e-15,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.02126871119386968,
+        "hessian_minimum_eigenvalue": 0.00727999892063466,
+        "hessian_maximum_eigenvalue": 7.137903382807052,
+        "hessian_minimum_over_epsilon_squared": 0.02911999568253864
+      },
+      "seed": 1732
+    },
+    {
+      "epsilon": 0.25,
+      "final_parameter_error": 0.00032356983219284833,
+      "final_training_risk": 9.640320196758275e-11,
+      "final_evaluation_risk": 9.085614512246192e-11,
+      "maximum_equilibrium_residual": 1.1024514634527804e-12,
+      "maximum_contraction_bound": 0.08838834764831843,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 13.710384542006068,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.3900805983322234e-11,
+        "brentq_maximum_discrepancy": 1.1546319456101628e-14,
+        "initial_equilibrium_residual": 1.1102230246251565e-14,
+        "gram_minimum_eigenvalue": 0.02126871119386968,
+        "hessian_minimum_eigenvalue": 0.0018407086535605567,
+        "hessian_maximum_eigenvalue": 5.431092588215401,
+        "hessian_minimum_over_epsilon_squared": 0.029451338456968908
+      },
+      "seed": 1732
+    },
+    {
+      "epsilon": 0.125,
+      "final_parameter_error": 0.02144927219674985,
+      "final_training_risk": 1.0875157589796783e-07,
+      "final_evaluation_risk": 1.0269976762582716e-07,
+      "maximum_equilibrium_residual": 8.881784197001252e-16,
+      "maximum_contraction_bound": 0.07954951288348659,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 14.014117708007689,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.4030707778679656e-11,
+        "brentq_maximum_discrepancy": 8.881784197001252e-16,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.02126871119386968,
+        "hessian_minimum_eigenvalue": 0.00045844501483991676,
+        "hessian_maximum_eigenvalue": 4.743020034110394,
+        "hessian_minimum_over_epsilon_squared": 0.029340480949754673
+      },
+      "seed": 1732
+    },
+    {
+      "epsilon": 0.5,
+      "final_parameter_error": 9.853341907150448e-11,
+      "final_training_risk": 3.320031482677267e-23,
+      "final_evaluation_risk": 3.275944834377894e-23,
+      "maximum_equilibrium_residual": 1.2094769630266455e-12,
+      "maximum_contraction_bound": 0.10606601717798213,
+      "maximum_newton_steps": 4,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 12.28382425000018,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.0085760246241156e-11,
+        "brentq_maximum_discrepancy": 7.549516567451064e-15,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.01988692990918424,
+        "hessian_minimum_eigenvalue": 0.006839201321109822,
+        "hessian_maximum_eigenvalue": 7.0726656882902175,
+        "hessian_minimum_over_epsilon_squared": 0.02735680528443929
+      },
+      "seed": 1733
+    },
+    {
+      "epsilon": 0.25,
+      "final_parameter_error": 0.00045217038557171887,
+      "final_training_risk": 1.768985731206113e-10,
+      "final_evaluation_risk": 1.7523932085149815e-10,
+      "maximum_equilibrium_residual": 1.1028955526626305e-12,
+      "maximum_contraction_bound": 0.08838834764831843,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 13.673020250003901,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.110627733497779e-11,
+        "brentq_maximum_discrepancy": 1.176836406102666e-14,
+        "initial_equilibrium_residual": 1.1102230246251565e-14,
+        "gram_minimum_eigenvalue": 0.01988692990918424,
+        "hessian_minimum_eigenvalue": 0.001729299175018015,
+        "hessian_maximum_eigenvalue": 5.366906787622874,
+        "hessian_minimum_over_epsilon_squared": 0.02766878680028824
+      },
+      "seed": 1733
+    },
+    {
+      "epsilon": 0.125,
+      "final_parameter_error": 0.02340018161712334,
+      "final_training_risk": 1.2197676829304866e-07,
+      "final_evaluation_risk": 1.210715795986574e-07,
+      "maximum_equilibrium_residual": 8.881784197001252e-16,
+      "maximum_contraction_bound": 0.07954951288348659,
+      "maximum_newton_steps": 3,
+      "maximum_training_risk_increase": 0.0,
+      "wall_seconds": 14.069550792002701,
+      "validation": {
+        "gradient_finite_difference_relative_error": 4.131712543234059e-11,
+        "brentq_maximum_discrepancy": 6.661338147750939e-16,
+        "initial_equilibrium_residual": 4.440892098500626e-16,
+        "gram_minimum_eigenvalue": 0.01988692990918424,
+        "hessian_minimum_eigenvalue": 0.0004308173052399785,
+        "hessian_maximum_eigenvalue": 4.6792776714668936,
+        "hessian_minimum_over_epsilon_squared": 0.027572307535358623
+      },
+      "seed": 1733
+    }
+  ],
+  "aggregate": [
+    {
+      "epsilon": 0.5,
+      "final_parameter_error_mean": 1.4724681649663108e-10,
+      "final_parameter_error_std": 1.4266311902989994e-10,
+      "final_training_risk_mean": 1.2278782110261043e-22,
+      "final_training_risk_std": 1.9170049120155104e-22,
+      "final_evaluation_risk_mean": 1.298091636878224e-22,
+      "final_evaluation_risk_std": 2.0541181203611213e-22,
+      "wall_seconds_mean": 12.272470499799237,
+      "wall_seconds_std": 0.10306408152852392
+    },
+    {
+      "epsilon": 0.25,
+      "final_parameter_error_mean": 0.0004614857227152722,
+      "final_parameter_error_std": 0.00012145098006594059,
+      "final_training_risk_mean": 1.9075311314519074e-10,
+      "final_training_risk_std": 8.90611068402254e-11,
+      "final_evaluation_risk_mean": 1.955017014368218e-10,
+      "final_evaluation_risk_std": 9.932223537221547e-11,
+      "wall_seconds_mean": 13.758915258603519,
+      "wall_seconds_std": 0.378525945689873
+    },
+    {
+      "epsilon": 0.125,
+      "final_parameter_error_mean": 0.023388795382778695,
+      "final_parameter_error_std": 0.0016130208270704212,
+      "final_training_risk_mean": 1.2187508678030435e-07,
+      "final_training_risk_std": 1.0900875746525622e-08,
+      "final_evaluation_risk_mean": 1.2336195366111322e-07,
+      "final_evaluation_risk_std": 1.6457608330488008e-08,
+      "wall_seconds_mean": 14.067131008402793,
+      "wall_seconds_std": 0.15954899325910663
+    }
+  ]
+}

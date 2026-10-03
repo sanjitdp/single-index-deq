@@ -1,0 +1,10 @@
+{
+  "seed": 1729,
+  "description": "Independent target-Hessian action finite difference along the normalized linear redundant direction (-xi1,1), central difference step 1e-5; epsilon=0 analytical forward-solver check.",
+  "epsilon_zero_analytic_root_maximum_error": 0.0,
+  "hessian_action_absolute_errors": {
+    "0.5": 2.2943443860935213e-10,
+    "0.25": 8.163275633443638e-11,
+    "0.125": 3.848649204242342e-11
+  }
+}

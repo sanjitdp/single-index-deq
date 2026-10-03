@@ -1,0 +1,53 @@
+{
+  "status": "completed",
+  "updates": 17600,
+  "final_train": {
+    "loss": 0.7576761342366537,
+    "accuracy": 0.7365333333333334,
+    "samples": 45000
+  },
+  "final_validation": {
+    "loss": 0.8145506397247314,
+    "accuracy": 0.718,
+    "samples": 5000
+  },
+  "training_seconds": 2339.299863857217,
+  "config": {
+    "dataset": "cifar10",
+    "phase": "final",
+    "method": "neumann",
+    "terms": 2,
+    "damping": 0.5,
+    "seed": 0,
+    "lr": 0.1,
+    "epochs": 50,
+    "batch_size": 128,
+    "device": "cuda",
+    "forward_iterations": 22,
+    "backward_iterations": 50,
+    "forward_tolerance": 0.001,
+    "backward_tolerance": 1e-06,
+    "ift_residual_limit": 0.001,
+    "resume": false,
+    "data": "data",
+    "download": false,
+    "smoke_updates": 0,
+    "output": "runs/cifar/damped_two",
+    "upstream_commit": "4f6bd5fa66dd991cad74fcc847c88061764cf8db",
+    "torch": "2.5.1+cu121",
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "cuda": "12.1",
+    "gpu": "NVIDIA L40S",
+    "cudnn_benchmark": true,
+    "deterministic_algorithms": false,
+    "determinism_note": "Paired RNG seeds, no augmentation, single data-loader process; MPS kernels are not promised bitwise deterministic.",
+    "split_sha256": "8714cdf3a617bac009084c7aff45319731cd003960925ea0f95a57ec32c88c8a"
+  },
+  "final_test": {
+    "loss": 0.8102741583824158,
+    "accuracy": 0.7194,
+    "samples": 10000
+  },
+  "total_seconds": 2631.737090862007
+}

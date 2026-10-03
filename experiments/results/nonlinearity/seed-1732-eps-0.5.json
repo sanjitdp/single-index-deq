@@ -1,0 +1,21 @@
+{
+  "epsilon": 0.5,
+  "final_parameter_error": 2.628215333151441e-11,
+  "final_training_risk": 2.514318506442483e-24,
+  "final_evaluation_risk": 2.3613383612368263e-24,
+  "maximum_equilibrium_residual": 1.2088108292118704e-12,
+  "maximum_contraction_bound": 0.10606601717798213,
+  "maximum_newton_steps": 4,
+  "maximum_training_risk_increase": 0.0,
+  "wall_seconds": 12.162443124994752,
+  "validation": {
+    "gradient_finite_difference_relative_error": 4.308479838475027e-11,
+    "brentq_maximum_discrepancy": 7.993605777301127e-15,
+    "initial_equilibrium_residual": 4.440892098500626e-16,
+    "gram_minimum_eigenvalue": 0.02126871119386968,
+    "hessian_minimum_eigenvalue": 0.00727999892063466,
+    "hessian_maximum_eigenvalue": 7.137903382807052,
+    "hessian_minimum_over_epsilon_squared": 0.02911999568253864
+  },
+  "seed": 1732
+}
